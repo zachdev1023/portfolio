@@ -1,10 +1,23 @@
 import './App.css';
 
+import SimpleAppBar from './components/material/SimpleAppBar';
+import Header from './components/Header';
+import About from './components/About';
+
+import Grid from '@material-ui/core/Grid';
+
 function App() {
   return (
     <div className="App">
-      <h1>PORTFOLIO</h1>
-      <h2>A little about myself</h2>
+      <Grid sm={12}>
+        <SimpleAppBar />
+      </Grid>
+      <Grid sm={12}>
+        <Header />
+      </Grid>
+      <Grid sm={12}>
+        <About />
+      </Grid>
     </div>
   );
 }
