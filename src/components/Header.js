@@ -54,7 +54,9 @@ const headerStyle = {
     padding: '1em',
     background: 'rgb(0, 49, 93, .7)',
     repeat: 'no-repeat',
-    color: 'white'
+    color: 'white',
+    
+    paddingTop: '5em'
 }
 
 const typoStyle = {

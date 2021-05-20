@@ -21,7 +21,7 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar style={{background: 'rgb(58, 96, 130, 1)', width: '100%', display: 'flex', justifyContent: 'space-evenly'}} position="static">
+      <AppBar elevation={6} style={{position: 'fixed', background: 'rgb(58, 96, 130, 1)', width: '100%', display: 'flex', justifyContent: 'space-evenly'}} position="static">
         <Toolbar style={{display: 'flex', justifyContent: 'space-evenly'}} >
 
             {/* <Container>

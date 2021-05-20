@@ -11,8 +11,8 @@ const About = () => {
 
             <Grid item lg={4}>
                 <Grid container>
-                    <Grid style={{display: 'flex', justifyContent: 'space-evenly'}} item xs={12}>
-                        <img style={{width: '20%', maxWidth: '500px', borderRadius: '100em', padding: '5%'}} src='https://scontent.fceb2-1.fna.fbcdn.net/v/t1.6435-9/124597575_1359174321093823_6635426144937327322_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=CPQ6DbXiDNIAX_IbdTt&_nc_ht=scontent.fceb2-1.fna&oh=5bf22cb0d5dc26dc9e6518ea147928a2&oe=60C996FC' alt="Zach Lee" />
+                    <Grid style={{ display: 'flex', justifyContent: 'space-evenly'}} item xs={12}>
+                        <img style={{width: '30%', maxWidth: '500px', borderRadius: '100em', padding: '5%'}} src='https://scontent.fceb2-1.fna.fbcdn.net/v/t1.6435-9/124597575_1359174321093823_6635426144937327322_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=CPQ6DbXiDNIAX_IbdTt&_nc_ht=scontent.fceb2-1.fna&oh=5bf22cb0d5dc26dc9e6518ea147928a2&oe=60C996FC' alt="Zach Lee" />
                     </Grid>
                     <Grid item xs={12}>
                         <Typography style={typoStyle} variant="h5">
@@ -35,7 +35,7 @@ export default About
 const aboutStyle = {
     padding: '1em',
     background: 'rgb(0, 41, 70,  70%)',
-    color: 'white'
+    color: 'white',
 }
 
 const typoStyle = {
