@@ -25,7 +25,7 @@ const Header = () => {
             I build things for the web and mobile, and I love what I do.
             </Typography>
 
-            <Container sm={12}>
+            <Container>
                 <Link href="https://www.facebook.com/ziracheleazar/" target='_blank'>
                     <FacebookIcon style={iconStyle}/>
                 </Link>
@@ -52,7 +52,8 @@ export default Header
 const headerStyle = {
     textAlign: 'center',
     padding: '1em',
-    background: 'rgb(0 49 93)',
+    background: 'rgb(0, 49, 93, .7)',
+    repeat: 'no-repeat',
     color: 'white'
 }
 

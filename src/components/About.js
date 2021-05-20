@@ -28,7 +28,7 @@ export default About
 
 const aboutStyle = {
     padding: '1em',
-    background: 'rgb(22 86 123)',
+    background: 'rgb(0, 41, 70,  70%)',
     color: 'white'
 }
 

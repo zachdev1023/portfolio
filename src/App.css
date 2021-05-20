@@ -1,0 +1,9 @@
+.App {
+    background: url(https://media1.giphy.com/media/1xnOnHhu9WNsmzC5tJ/giphy.gif?cid=ecf05e47q9dssmy3i820acqro94qtmrzz6id05mlrie3bc2d&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size:100vw 50vw;
+    background-attachment: fixed;
+    background-color: black;
+    background-position: center;
+    background-position-y: center;
+}
