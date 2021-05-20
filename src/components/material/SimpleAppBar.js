@@ -12,6 +12,7 @@ import Button from '@material-ui/core/Button';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    width: '100%',
   },
 }));
 
@@ -20,8 +21,8 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar style={{background: 'rgb(58, 96, 130, 1)', width: '100%'}} position="static">
-        <Toolbar>
+      <AppBar style={{background: 'rgb(58, 96, 130, 1)', width: '100%', display: 'flex', justifyContent: 'space-evenly'}} position="static">
+        <Toolbar style={{display: 'flex', justifyContent: 'space-evenly'}} >
 
             {/* <Container>
                     <img src={logo} style={{height: '1em'}} alt="logo" />

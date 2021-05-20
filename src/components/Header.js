@@ -13,15 +13,15 @@ const Header = () => {
 
     return (
         <div style={headerStyle}>
-            <Typography style={typoStyle} variant="h3">
+            <Typography style={typoStyle} variant="h4">
             Hi, my name is Zirach Hangad.
             </Typography>
 
-            <Typography style={typoStyle} variant="h4">
+            <Typography style={typoStyle} variant="h5">
             Front-End Developer - Mobile & Web 
             </Typography>
 
-            <Typography style={typoStyle} variant="h5">
+            <Typography style={typoStyle} variant="h6">
             I build things for the web and mobile, and I love what I do.
             </Typography>
 

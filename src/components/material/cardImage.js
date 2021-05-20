@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function RecipeReviewCard() {
+export default function RecipeReviewCard({img, title, desc, tools}) {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -52,23 +52,23 @@ export default function RecipeReviewCard() {
 
         <CardMedia
         className={classes.media}
-        image="https://media1.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif?cid=ecf05e47xzuhirlce23eah45v8u0czz6ar0q2cttx5dtu64h&rid=giphy.gif&ct=g"
-        title="Paella dish"
+        image={img}
+        title={title}
         />
         
       <CardHeader
-        title="Web Development"
+        title={title}
       />
       
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-        I like to code web apps from scratch by using awesome libraries and frameworks.
+        {desc}
         </Typography>
         <Typography style={{fontWeight:'bold', paddingTop: '1vh'}} variant="button" color="textSecondary" component="p">
         Tools I used
         </Typography>
         <Typography style={{fontStyle:'oblique', paddingTop: '1vh'}} variant="caption" color="textSecondary" component="p">
-        JavaScript, TypeScript, React, (S)CSS, styled-components, Angular, lodash, redux, VS Code, Python
+        {tools}
         </Typography>
       </CardContent>
     </Card>
