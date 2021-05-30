@@ -8,7 +8,7 @@ const Footer = () => {
             © 2021 Designed & Developed by <strong> Zirach Hangad </strong>
             </Typography>
             <Typography variant="subtitle2">
-            Built with <strong> Material-UI </strong>
+            Built with <strong> React JS </strong> and <strong> Material-UI </strong>
             </Typography>
         </div>
     )
